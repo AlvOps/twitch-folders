@@ -1,0 +1,37 @@
+{
+  "manifest_version": 3,
+  "name": "Twitch Folders",
+  "version": "2.2",
+  "description": "Organize the Twitch channels you follow into custom folders. Shows only live streamers.",
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://www.twitch.tv/*"
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "twitch-folders@local",
+      "strict_min_version": "142.0",
+      "data_collection_permissions": {
+        "required": [
+          "none"
+        ]
+      }
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.twitch.tv/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "css": [
+        "style.css"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
