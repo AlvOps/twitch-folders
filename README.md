@@ -2,6 +2,8 @@
 
 Browser extension that adds **folders** to the "Followed Channels" list in the Twitch sidebar. Only live streamers are shown, fully integrated into the page.
 
+**Version:** 2.2
+
 ## Features
 
 - Create as many folders as you want, named however you like.
