@@ -1,5 +1,7 @@
 # Twitch Folders
 
+Featured in https://addons.mozilla.org/en-US/firefox/addon/twitch-folders/
+
 Browser extension that adds **folders** to the "Followed Channels" list in the Twitch sidebar. Only live streamers are shown, fully integrated into the page.
 
 **Version:** 2.2
